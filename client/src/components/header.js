@@ -1,6 +1,6 @@
-import Navbar from "./navbar";
-import Logo from "./logo";
-import Presentation from "./presentation";
+import Navbar from "./header/navbar";
+import Logo from "./header/logo";
+import Presentation from "./header/presentation";
 
 function Header() {
     function changeBg(){

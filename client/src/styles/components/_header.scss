@@ -43,13 +43,17 @@ header {
     letter-spacing: 0.08em;
   }
   .item__subLinks {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    visibility: hidden;
+    position: fixed;
+    right: -100vw;
   }
   .navbar__links {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     position: fixed;
     right: -100vw;
     bottom: 0;
@@ -62,11 +66,23 @@ header {
     width: 100vw;
     right: 0;
     visibility: visible;
+    position: relative;
+    padding: 4rem 2rem 0 0.9rem;
+    
+  }
+  .navbar__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: rgb(221, 221, 221) solid 1px;
+    &:hover{
+      background: rgba(255, 225, 229, 0.798);
+    }
   }
     
   .navbar__link {
     display: block;
-    padding: 1.3rem;
+    padding: 1.2rem;
     font-size: 5.4vw;
     color: #333;
   }
@@ -129,3 +145,57 @@ header {
 .show-nav .burger-bar::after {
   transform: rotate(-45deg)
 }
+.item__button {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin: auto 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  display: block;  
+}
+.item__bar,
+.item__bar::before {
+  display: block;
+  width: 15px;
+  height: 2px;
+  position: relative;
+  border-radius: 3px;
+  background: black;
+  transition: all .5s ease-in-out
+}
+.item__bar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    transform: rotate(90deg);
+  }
+  .show-subNav .item__bar {
+    transform: rotate(180deg)
+  }
+  .show-subNav .item__bar::before {
+    width: 0;
+    background: transparent;
+  }
+  .navbar__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    right: -100vw;
+    bottom: 0;
+    height: 100vh;
+    padding: 2rem;
+    visibility: hidden;
+    background-color: white;
+  }
+  .show-subNav .item__subLinks {
+    width: 100vw;
+    right: 0;
+    visibility: visible;
+    position: relative;
+    padding: 4rem 2rem 0 0.9rem;
+    
+  }
+
