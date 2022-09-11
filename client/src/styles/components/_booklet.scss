@@ -1,0 +1,38 @@
+.booklet-box {
+    margin-top: 20px;
+padding-top: 100px;
+box-shadow: inset 0 10px  20px  $color-2;
+background-color: #e2dfdf;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+
+}
+.booklet-box h2 {
+    font: 1.2em $font-4;
+    color: $color-1;
+}
+.orange-char {
+    color: #b85f00;
+}
+.booklet-img {
+    width: 80%;
+    margin-bottom: 70px;
+}
+.booklet-img:hover {
+    width: 100%;
+    margin-bottom: 6px;
+    transition: all .5s;
+}
+.faArrowDown {
+    display: block;
+    font-size: 22px;
+    color: $color-1;
+    border: solid 2px $color-1;
+    margin: 20px auto;
+    padding: 7px 10px;
+    border-radius: 50%;
+    background-color: $color-3;
+    box-shadow: 2px 2px  20px  #b85f00, -2px -2px  20px  #b85f00;
+}

@@ -16,11 +16,12 @@ header {
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.466);
     color: white;
+    z-index: 7;
   }
   .logo {
     width: 213px;
     height: 145px;
-    margin-top: 140px;
+    margin-top: 90px;
   }
   .logo-box {
     display: flex;
@@ -29,7 +30,7 @@ header {
 
   .presentation-box {
     color: white;
-    text-shadow: rgba(0, 0, 0, 0.466) 2px 0 10px;
+    text-shadow: black 0.1em 0.1em 0.2em, black -0.1em -0.1em 0.2em;
     word-wrap: break-word;
     text-align: center;
     font-family: $font-1;
@@ -95,7 +96,7 @@ header {
     display: block;
     position: fixed;
     top: 0.6rem;
-    right: 1rem;
+    right: 2rem;
   }
   .navbar__burger:hover {
     cursor: pointer;

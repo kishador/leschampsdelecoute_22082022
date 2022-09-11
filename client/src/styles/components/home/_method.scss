@@ -1,0 +1,96 @@
+
+.faMusic{
+  font-size: 20px;
+}
+.filter-text-icons {
+  border: 2px solid  rgb(184, 250, 169);
+  height: 50px;
+  width: 210px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: $color-1;
+  font-weight: bold;
+}
+.filter-text-icons:hover > .filter-text {
+  color: $color-1;
+  cursor: pointer;
+}
+.filter-text-icons:hover > .filter-icons {
+  color:  rgb(184, 250, 169);
+  background-color: $color-1;
+  cursor: pointer;
+}
+.filter-text-icons:hover {
+  background-color:  rgb(184, 250, 169);
+}
+.filter-text {
+  height: 50px;
+  width: 120px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0px 25px 25px 0px;
+  text-align: end;
+  text-overflow: unset;
+}
+.filter-icons {
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: $color-1;
+  background-color:  rgb(184, 250, 169);
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.flex-between {
+    display: flex;
+    align-items: center;
+  }
+  .methodCard {
+    width: 240px;
+    height: 240px;
+    margin: 30px auto; 
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+ 
+    z-index: 2;
+  }
+  .methodImg-box {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .methodCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; 
+    z-index: 1;    
+  }
+  .methodCard figcaption {
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    background: white;
+    z-index: 3; 
+  }
+  .methodCard figcaption p {
+    margin: 5px 16px;
+  }
+  .faArrowRight, .faCheck, .faShare {
+    margin-right: 6px;
+    margin-left: 4px;
+    color: #b85f00;
+  }
+  .method-video {
+    margin-bottom: 40px;
+  }

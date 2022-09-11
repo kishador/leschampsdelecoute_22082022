@@ -6,15 +6,49 @@
     font-family: "font-2";
     src: url(./assets/fonts/Arimo-Regular.ttf);
   }
+  @font-face {
+    font-family: "font-3";
+    src: url(./assets/fonts/Reey-Regular.otf);
+  }
+
+  @font-face {
+    font-family: "font-4";
+    src: url(./assets/fonts/Baloo-Regular.ttf);
+  }
+  @font-face {
+    font-family: "font-5";
+    src: url(./assets/fonts/GreatVibes-Regular.otf);
+  }
+
+
 
 
 $font-1: "font-1", sans-serif;
 $font-2: "font-2", serif;
+$font-3: "font-3", serif;
+$font-4: "font-4", sans-serif;
+$font-5: "font-5", sans-serif;
+$color-1: rgb(11, 75, 13);
+$color-2: #666;
+$color-3: rgb(65, 183, 69);
 
 body {
     margin: 0;
     font-family: $font-2;
   }
+ 
+main {
+  position: relative;
+  height: auto;
+  top: -18px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 4px 4px 0 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 ul {
   list-style: none;
   margin: 0;
@@ -25,4 +59,20 @@ button {
 }
 a {
   text-decoration: none;
+  color: black;
+}
+h3 {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-family: $font-4;
+  font-weight: bolder;
+  color: $color-1;
+  text-shadow: 1px white, 2px black;
+
+  margin-bottom: 10px;
+  line-height: 1.1em;
+}
+blockquote {
+  margin: 0;
 }

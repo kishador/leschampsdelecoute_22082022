@@ -1,5 +1,5 @@
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faMailForward, faMailReply } from "@fortawesome/free-solid-svg-icons";
+import { faBlog, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 
@@ -10,7 +10,7 @@ function Contact() {
             <p><strong>06 99 29 30 09</strong></p>
             <NavLink to="/"><FontAwesomeIcon icon={faFacebook} /><p>Facebook</p></NavLink>
             <NavLink to="/"><FontAwesomeIcon icon={faBlog} /><p>Blog</p></NavLink>
-            <NavLink to="/"><FontAwesomeIcon icon={faMailReply} /><p>Contact</p></NavLink>
+            <NavLink to="/"><FontAwesomeIcon icon={faEnvelope} /><p>Contact</p></NavLink>
         </section>
     );
   }

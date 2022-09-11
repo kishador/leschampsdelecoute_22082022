@@ -1,0 +1,60 @@
+.offer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.offer-audiometerImg {
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.offer-capsuleLink {
+    width: 80%;
+    height: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px dotted $color-3;
+}
+.offer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.offer-link { 
+    color: #b85f00;
+    font-weight: bold;
+}
+.offer-capsuleLinkMore {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.offer-h2 {
+    font: 1.8em $font-1;
+    font-weight: bolder;
+}
+.offerCard {
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.1em, black -0.1em -0.1em 0.1em;
+    letter-spacing: 0.8px;
+    word-wrap: break-word;
+    text-align: center;
+    font: 22px $font-1;
+    font-weight: bold;
+    padding: 0 22px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.offerCard figcaption {
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+}

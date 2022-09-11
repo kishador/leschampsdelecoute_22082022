@@ -1,0 +1,83 @@
+.journey-title{
+    color: $color-2;
+    overflow: auto;
+    text-align: center; 
+    line-height: 1.25em;
+    font-weight: lighter;
+    letter-spacing: 0.01em;
+    margin: 30px 10px;
+}
+.img-star{
+    width: 40px;
+    height: 40px;
+}
+.journey-offer li{
+    display: flex;
+    margin-bottom: 1em;
+
+}
+.journey-offer li img{
+    width: 30px;
+    height: 30px;
+}
+.profilPicture-box {
+    display: flex;
+    justify-content: center;
+
+}
+.profilPicture {
+    border-radius: 50%;
+    border: thick double $color-2;
+    box-shadow:  0 0 7px yellow;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+
+}
+.journey-link {
+    width: 219px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d2ca;
+    color: #670000;
+    font-size: 16px;
+    border: solid 2px #d9d2ca;
+    border-radius: 12px; 
+    margin: 20px auto; 
+}
+.journey-txt{
+text-align: justify;
+color: #3e3147;
+font-family: Arial,"Helvetica Neue",Helvetica,sans-serif,"websafe";
+word-wrap: break-word;
+font-weight: 300;
+line-height: 1.5;
+}
+.orange-txt {
+    width: 170px;
+    color: #b85f00;
+    font-style: italic;
+    text-align: end;
+    margin-bottom: 10px;
+}
+.signature {
+    width: 95%;
+    text-align: end;
+    font-family: $font-3;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+.safety-txt {
+    color: #660000;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    border: 2mm ridge $color-1;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+}
